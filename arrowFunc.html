@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow Functions</title>
+</head>
+<body>
+    <script>
+
+        // Normal function
+        function printMyName(name){ 
+            console.log(name);
+        }
+        printMyName('Branislav');
+
+
+        // Arrow function
+        const printMySurname = surname => {
+            console.log(surname);
+        }
+        printMySurname('Buna');
+
+        const multiply = (number) => number * 2;
+        console.log(multiply(2));
+    </script>
+</body>
+</html>
